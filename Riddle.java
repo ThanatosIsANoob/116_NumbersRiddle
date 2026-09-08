@@ -1,4 +1,5 @@
 public class riddle{
+    //algorithm for ints
     public static void calculateInt(int a){
         int originalA = a;
         a *= 2;
@@ -10,6 +11,7 @@ public class riddle{
         a -= originalA;
         System.out.println(a);
     };
+    //algorithm for doubles
     public static void calculateDouble(double a){
         double originalA = a;
         a *= 2;
@@ -21,7 +23,9 @@ public class riddle{
         a -= originalA;
         System.out.println(a);
     };
+    //main
     public static void main(String[] args){
+        //test inputs
         int posInt = 2;
         int negInt = -2;
         int zero = 0;
@@ -29,6 +33,16 @@ public class riddle{
         double posDouble = 2.00;
         double negDouble = -2.00;
 
+        //user input
         int startingNum = 47;
-    }
-}
+
+        //testcases
+        calculateInt(posInt);
+        calculateInt(negInt);
+        calculateInt(zero);
+        calculateInt(one);
+        calculateDouble(posDouble);
+        calculateDouble(negDouble);
+        calculateInt(startingNum);
+    };
+};
