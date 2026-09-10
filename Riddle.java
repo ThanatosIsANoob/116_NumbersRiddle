@@ -1,29 +1,30 @@
 public class Riddle{
     //algorithm for ints
     public static void calculateInt(int a){
-        System.out.println(a);
+        System.out.println("Original number: " + a);
         int originalA = a;
         a *= 2;
-        System.out.println(a);
+        System.out.println("Multiply by 2:" + a);
         a += 6;
-        System.out.println(a);
+        System.out.println("Add 6: " + a);
         a /= 2;
-        System.out.println(a);
+        System.out.println("Divide by 2: " + a);
         a -= originalA;
-        System.out.println(a);
+        System.out.println("Final Number:" + a + "\n");
+
     };
     //algorithm for doubles
     public static void calculateDouble(double a){
-        System.out.println(a);
+        System.out.println("Original number: " + a);
         double originalA = a;
         a *= 2;
-        System.out.println(a);
+        System.out.println("Multiply by 2:" + a);
         a += 6;
-        System.out.println(a);
+        System.out.println("Add 6: " + a);
         a /= 2;
-        System.out.println(a);
+        System.out.println("Divide by 2: " + a);
         a -= originalA;
-        System.out.println(a);
+        System.out.println("Final Number:" + a + "\n");
     };
     //main
     public static void main(String[] args){
