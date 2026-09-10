@@ -1,3 +1,6 @@
 # 116_NumbersRiddle
-Isaac: algorithms for running riddle  
+Isaac: algorithms for running riddle
+
 Samarth: Class definitions, improving print statements
+
+Agilan: Tweaked code added finishing touches like missing colons are fixed errors and added comments
